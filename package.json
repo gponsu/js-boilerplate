@@ -1,5 +1,4 @@
 {
-  "name": "kata name",
   "jest": {
     "verbose": true
   }

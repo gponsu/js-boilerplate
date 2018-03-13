@@ -1,8 +1,7 @@
 #!/bin/sh
 trap 'exit 1' SIGSEGV SIGTERM
 
-docker build -t js-boilerplate .
-
+docker build -t js-boilerplate . &&
 docker run -it \
   --rm \
   --mount type=bind,source="$(pwd)",target=/opt/katas \

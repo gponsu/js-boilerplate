@@ -1,4 +1,4 @@
-FROM node:8.4.0-alpine
+FROM node:9.8.0-alpine
 
 WORKDIR "/opt/katas"
 
